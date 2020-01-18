@@ -1,6 +1,6 @@
 Name:           rasqal
 Version:        0.9.30
-Release:        4%{?dist}
+Release:        2%{?dist}
 Summary:        RDF Query Library
 
 Group:          System Environment/Libraries
@@ -101,12 +101,6 @@ rm -rf $RPM_BUILD_ROOT
 
 
 %changelog
-* Fri Jan 24 2014 Daniel Mach <dmach@redhat.com> - 0.9.30-4
-- Mass rebuild 2014-01-24
-
-* Fri Dec 27 2013 Daniel Mach <dmach@redhat.com> - 0.9.30-3
-- Mass rebuild 2013-12-27
-
 * Tue May 28 2013 Lukáš Tinkl <ltinkl@redhat.com> 0.9.30-2
 - use -fno-strict-aliasing
 
